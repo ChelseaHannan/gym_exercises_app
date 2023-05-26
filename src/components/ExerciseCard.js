@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button, Stack, Typography } from '@mui/material';
-// import { exerciseOptions, fetchData } from '../utils/fetchData';
+import { exerciseOptions, fetchData } from '../utils/fetchData';
 
 const ExerciseCard = ({ exercise }) => {
     return (
